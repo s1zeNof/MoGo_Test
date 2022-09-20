@@ -591,7 +591,7 @@ $q = new WP_Query( $args );
  
 if( $q->have_posts() ) :
  
-	// затем запускаем цикл
+	
 	while( $q->have_posts() ) : $q->the_post(); ?>
           <div class="blog-item">
             
@@ -630,7 +630,7 @@ if( $q->have_posts() ) :
     endwhile;
 endif;
  
-// восстанавливаем глобальную переменную $post
+
 wp_reset_postdata();
 ?>
           </div>
