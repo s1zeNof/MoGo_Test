@@ -1,0 +1,96 @@
+$kaushan-font: 'Kaushan Script';
+$montserrat-font: 'Montserrat', sans-serif;
+$roboto-font: 'Roboto', sans-serif;
+$title-color: #333333;
+
+#unique_design {
+    background: url("/wp-content/uploads/2022/09/unique-bg-1.png") center no-repeat !important;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding-bottom: 0;
+    margin-bottom: 40px;    
+}
+
+.devices {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    &:nth-child(1) {
+        
+    }
+}
+
+.devices-item {
+    display: block;
+    margin-left: 25px;
+    margin-top: 45px;
+}
+
+.devices-item-iphone {
+    position: absolute;
+    bottom: -85px;
+    right: -65px;
+    z-index: 1;
+    width: auto;
+        height: 475px;
+}
+
+/*Media*/
+
+@media screen and (max-width: $large-resol) {
+    
+}
+
+@media screen and (max-width: $medium-resol) {
+    
+}
+
+@media screen and (max-width: $small-resol) {
+    .devices-item {
+        width: 330px;
+    }
+    .devices-item-iphone {
+        right: -10%;
+        width: 200px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 602px) {
+    .devices-item {
+    }
+    .devices-item-iphone {
+        left: 40%;
+        
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .devices-item {
+        .devices-item-iphone {
+            right: 20%;
+        }
+    }
+}
+
+
+
+@media screen and (max-width: $extra_small-resol) {
+    .devices-item {
+        width: 230px;
+    }
+    .devices-item-iphone {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 277px) {
+    .devices-item {
+        width: 200px;
+    }
+    .devices-item-iphone {
+        right: 20%;
+        width: 130px;
+    }
+}

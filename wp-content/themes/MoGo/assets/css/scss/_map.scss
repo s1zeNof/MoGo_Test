@@ -1,0 +1,32 @@
+$kaushan-font: 'Kaushan Script';
+$montserrat-font: 'Montserrat', sans-serif;
+$roboto-font: 'Roboto', sans-serif;
+$title-color: #333333;
+
+.section_map{
+    padding: 50px 0;
+    background: #e6e6e6 url("/wp-content/themes/MoGo/assets/images/map-bg.jpg") no-repeat;
+    background-size: cover;
+}
+
+.map {
+    text-align: center;
+    .map-title {
+        font-size: 24px;
+        font-weight: 700;
+        color: #f38181;
+        text-transform: uppercase;
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+        &:after {
+            content: "";
+            display: block;
+            width: 60px;
+            height: 3px;
+            margin: 15px auto 0;
+            background-color: #f38181;
+        }
+    }
+}

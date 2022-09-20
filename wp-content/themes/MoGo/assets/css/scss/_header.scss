@@ -1,0 +1,79 @@
+$kaushan-font: 'Kaushan Script';
+$montserrat-font: 'Montserrat', sans-serif;
+$roboto-font: 'Roboto', sans-serif;
+$title-color: #333333;
+
+#header {
+    background-image: url("/img/hero_slider1.jpg");
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+
+
+
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 30px !important;
+    color: #000 !important;
+}
+
+
+
+.navbar-light {
+    .navbar-nav {
+        a {
+            font-size: 14px;;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+        .nav-link {
+            color: #000 !important;
+            font-weight: 400 !important;
+            padding: 15px 25px !important;
+        }
+    }
+}
+
+.navbar-light {
+    .navbar-nav {
+        .active {
+            &>.nav-link {
+                font-size: #000;
+            }
+        }
+    }
+}
+
+    .nav-link {
+           a {
+            &:hover{
+                color: red !important;
+            }
+           } 
+    }
+
+/*icons*/
+
+.header_icon {
+    padding-top: 14px;
+}
+
+.header_icon {
+    li {
+        display: inline-block;
+        list-style-type: none;
+        padding: 0 20px;
+        font-size: 16px;
+    }
+}
+
+.header_icon {
+    i {
+        color: #000;
+    }
+}

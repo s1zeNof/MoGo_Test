@@ -1,0 +1,52 @@
+$kaushan-font: 'Kaushan Script';
+$montserrat-font: 'Montserrat', sans-serif;
+$roboto-font: 'Roboto', sans-serif;
+$title-color: #333333;
+
+
+.gray-bg {
+    background-color: #f8f8f8;
+    /*padding: 72px;*/
+}
+
+#logos {
+    padding: 72px;
+    .logos_content {
+        display: flex !important;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+
+
+/*Media*/
+
+@media screen and (max-width: $large-resol) {
+    
+}
+
+
+
+@media screen and (max-width: $medium-resol) {
+    #logos {
+        padding: 72px;
+        .logos_content {
+            display: flex !important;
+            flex-direction: column !important;
+            align-items: center !important;
+            margin: 0 auto !important;
+        }
+        .logos-item {
+            padding-bottom: 50px;
+        }
+    }
+}
+
+@media screen and (max-width: $small-resol) {
+    
+}
+
+@media screen and (max-width: $extra_small-resol) {
+    
+}

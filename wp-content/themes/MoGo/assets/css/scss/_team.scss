@@ -1,0 +1,135 @@
+$kaushan-font: 'Kaushan Script';
+$montserrat-font: 'Montserrat', sans-serif;
+$roboto-font: 'Roboto', sans-serif;
+$title-color: #333333;
+
+.team-item {
+    transition: .3s;
+    img {
+        width: 100%;
+        
+    }
+}
+
+.team-item {
+    position: relative;
+    &:hover {
+        position: relative;
+        top: -10px;
+        left: -10px;
+        transition: .3s;
+        -moz-transition: .3s;
+        -webkit-transition: .3s;
+        -ms-transition: .3s;
+        -o-transition: .3s;
+        transition: .3s;
+    }
+}
+
+.team-item {
+    &:hover {
+        .overlay {
+            opacity: 1;
+        }
+    }
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom, rgb(231 70 70 / 71%), rgb(208 71 34 / 73%), rgb(241 158 82 / 86%), rgb(255 217 111 / 88%), rgb(241 212 114 / 68%));
+    
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.team-icon {
+    padding-bottom: 10px;
+    img {
+        width: auto;
+    }
+}
+
+.team-name {
+    span {
+        font-family: $montserrat-font;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 700;
+        
+    }
+}
+
+.team_item_bg {
+    background-color: #95e1d3;
+}
+
+/*social*/
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social-item {
+    width: 55px;
+    height: 55px;
+    
+    background-color: #fce38a;
+    border-right: 1px solid #f38181;
+    text-decoration: none;
+    line-height: 1;
+    transition: .3s;
+    i {
+        color: #f38181;
+        font-size: 30px;
+        padding: 12px 14px;
+        &:hover {
+            color: #fce38a;
+        }
+    }
+    &:last-child {
+        border-right: 0;
+    }
+    &:hover {
+        background-color: #f38181;
+        color: #fce38a;
+        transition: .3s;
+    }
+}
+
+.team-description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+    h4 {
+        margin: 0 auto;
+        font-family: $montserrat-font;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #333333;
+        padding-bottom: 10px;
+    }
+
+    span {
+        margin: 0 auto;
+        font-family: $roboto-font;
+        font-size: 15px;
+        font-weight: 400;
+        color: #999999;
+        margin-bottom: 120px;
+    }
+}

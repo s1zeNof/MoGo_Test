@@ -1,0 +1,30 @@
+$kaushan-font: 'Kaushan Script';
+$montserrat-font: 'Montserrat', sans-serif;
+$roboto-font: 'Roboto', sans-serif;
+$title-color: #333333;
+
+.accordion {
+    
+    button {
+        font-family: $montserrat-font;
+        font-size: 14px;
+        font-weight: 500;
+        color: #333333;
+        text-transform: uppercase;
+    }
+}
+
+.card-header {
+    background-color: #fff !important;
+    height: 60px;
+    button {
+        display: flex;
+    align-items: center;
+    }
+    img {
+        padding-right: 15px;
+    }
+}
+
+/*quote carousel*/
+
